@@ -3,5 +3,5 @@ all: $(CONTIKI_PROJECT)
 
 PROJECT_SOURCEFILES += mycounter.c
 
-CONTIKI = /home/islam/contiki-ng
+CONTIKI = ../..
 include $(CONTIKI)/Makefile.include
